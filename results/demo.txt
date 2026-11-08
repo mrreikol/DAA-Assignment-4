@@ -1,0 +1,7 @@
+LCS length: 4
+Edit distance: 3
+Naive matches: [1, 3, 5]
+KMP matches: [1, 3, 5]
+Rabin-Karp matches: [1, 3, 5]
+banana suffix array: [5, 3, 1, 0, 4, 2]
+banana LCP: [0, 1, 3, 0, 0, 2]

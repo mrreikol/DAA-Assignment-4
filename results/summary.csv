@@ -1,0 +1,28 @@
+algorithm,scenario,n,m,average_ms,preprocessing_comparisons,search_comparisons
+LCS,random,100,100,0.221262,0,0
+Edit Distance,random,100,100,0.277996,0,0
+LCS,random,500,500,0.916862,0,0
+Edit Distance,random,500,500,1.548609,0,0
+LCS,random,1000,1000,3.704011,0,0
+Edit Distance,random,1000,1000,4.446617,0,0
+Naive,present,10000,20,0.294717,0,10415
+KMP,present,10000,20,0.234091,19,10398
+Rabin-Karp,present,10000,20,0.666322,0,20
+Naive,absent,10000,20,0.452170,0,10392
+KMP,absent,10000,20,0.152941,20,10394
+Rabin-Karp,absent,10000,20,0.621665,0,0
+Naive,present,50000,20,0.374611,0,51999
+KMP,present,50000,20,0.070055,21,51925
+Rabin-Karp,present,50000,20,1.621772,0,20
+Naive,absent,50000,20,0.248358,0,52045
+KMP,absent,50000,20,0.127483,21,51968
+Rabin-Karp,absent,50000,20,0.975181,0,0
+Naive,present,100000,20,0.381627,0,103935
+KMP,present,100000,20,0.116854,19,103789
+Rabin-Karp,present,100000,20,1.885074,0,20
+Naive,absent,100000,20,0.571268,0,103900
+KMP,absent,100000,20,0.114328,22,103776
+Rabin-Karp,absent,100000,20,2.769267,0,0
+Kasai,random,1000,0,0.188406,0,0
+Kasai,random,5000,0,0.378717,0,0
+Kasai,random,10000,0,0.380500,0,0
